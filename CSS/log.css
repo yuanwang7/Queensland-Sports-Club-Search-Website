@@ -1,0 +1,38 @@
+th.fc-day-header.fc-widget-header.fc-sat {
+    border: none;
+}
+th.fc-day-header.fc-widget-header.fc-fri {
+    border: none;
+}
+
+th.fc-day-header.fc-widget-header.fc-thu {
+    border: none;
+}
+
+th.fc-day-header.fc-widget-header.fc-wed {
+    border: none;
+}
+
+th.fc-day-header.fc-widget-header.fc-tue {
+    border: none;
+}
+
+th.fc-day-header.fc-widget-header.fc-mon {
+    border: none;
+}
+
+th.fc-day-header.fc-widget-header.fc-sun {
+    border: none;
+}
+
+button.fc-prev-button.fc-button.fc-button-primary {
+    margin-left: 0;
+}
+
+button.fc-today-button.fc-button.fc-button-primary {
+    margin-right: 0;
+}
+
+button.fc-dayGridMonth-button.fc-button.fc-button-primary.fc-button-active {
+    margin-left: 0;
+}

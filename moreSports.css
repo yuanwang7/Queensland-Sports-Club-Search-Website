@@ -1,0 +1,165 @@
+/**
+.container h1 {
+  padding: 20px;
+  font-size: 18px;
+}
+.container h2 {
+  padding: 20px;
+  font-size: 18px;
+}
+*/
+
+/* unvisited link */
+.card a {
+  color: orangered;
+}
+
+/* selected link */
+.card a:hover {
+  color: #004E64;
+}
+
+/* card layout */
+.card {
+  border-radius: 1px; 
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* card image & overlay link */
+.card_image:hover img {
+  transition: .3s ease;
+  opacity: 0.4;
+}
+
+.card_image:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+}
+
+.overlay a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.overlay a:hover {
+  text-decoration: none;
+}
+
+.overlay a span {
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+/*tooltip customize*/
+
+ .tooltip .tooltip-inner {
+  background-color: #004E64;
+  color: #FFF;
+  min-width: 250px;
+  border-radius: 1px;
+  font-size: 1.1em;
+}
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+border-bottom-color: #004E64;
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before,
+.bs-tooltip-top .arrow::before {
+border-top-color: #004E64;
+}
+
+/* moresports button style1 */
+.btn-primary1 {
+  color: #004E64;
+  background-color: #ffffff;
+  border-color: #004E64;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  border-radius: 0;
+  border-width:3px;
+  font-size: 14px;
+  
+  }
+
+  .btn-primary1:hover,
+  .btn-primary1:active,
+  .btn-primary1:focus,
+  .btn-primary1.active {
+  background: #004E64;
+  color: #ffffff;
+  border-color: #004E64;
+  font-size: 14px;
+  }
+
+/* style1 end */
+
+/* moresports button style1 */
+.btn-primary2 {
+  color: #004E64;
+  background-color: #ffffff;
+  border-color: #004E64;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  border-radius: 0;
+  border-width:3px;
+  font-size: 14px;
+  
+  }
+
+  .btn-primary2:hover,
+  .btn-primary2:active,
+  .btn-primary2:focus,
+  .btn-primary2.active {
+  background: #004E64;
+  color: #ffffff;
+  border-color: #004E64;
+  font-size: 14px;
+  }
+
+/* style1 end */
+
+/* moresports button style2 
+.btn-primary2 {
+  color:#ffffff;
+  background-color: #004E64;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  border-radius: 0;
+  font-size: 16px;
+  }
+
+
+  .btn-primary2:hover,
+  .btn-primary2:active,
+  .btn-primary2:focus,
+  .btn-primary2.active {
+  background:#ffffff;
+  color:#004E64;
+  font-size: 16px;
+  }
+
+  /* style2 end */
+
+ 
+
